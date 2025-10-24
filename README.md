@@ -34,14 +34,32 @@ gelato-magico-ml │ ├── inputs/              # Arquivos de entrada (frase
 - O modelo apresentou um **R² de aproximadamente 0.9**, indicando boa capacidade de previsão.  
 - Observou-se que a cada aumento de **1°C**, as vendas crescem em média **X unidades** (valor obtido no treino).  
 
-📷 *Aqui você pode inserir prints do notebook com gráficos de dispersão, linha de regressão e métricas.*  
+## 📊 Exemplos de gráficos
+
+Relação entre temperatura e vendas:
+![Gráfico de Vendas de Sorvete](grafico_sorvete.png)
+
+Comparação de sabores em dias frios vs. quentes:
+![Gráfico de Sabores](grafico_sabores.png)  
 
 ---
+## 🔎 Análise dos Gráficos
 
-## 💡 Insights
-- O consumo de sorvete tem forte correlação com a temperatura.  
-- Sabores refrescantes (limão, menta, frutas tropicais) tendem a vender mais em dias muito quentes.  
-- Promoções em dias de calor extremo podem aumentar ainda mais a demanda.  
-- Em dias nublados, sabores mais doces (como chocolate) mantêm boa saída.  
+### Relação entre Temperatura e Vendas
+O gráfico de dispersão com a linha de regressão mostra uma **forte correlação positiva** entre a temperatura e as vendas de sorvete.  
+Isso significa que, conforme a temperatura aumenta, a quantidade de sorvetes vendidos também cresce.  
+Esse comportamento é esperado, já que em dias mais quentes os consumidores buscam alternativas refrescantes.  
+O modelo de regressão linear conseguiu capturar bem essa tendência, apresentando um bom ajuste aos dados.
 
----
+### Comparação de Sabores em Dias Frios vs. Quentes
+O gráfico de barras evidencia diferenças importantes no consumo de sabores:
+- **Chocolate e Morango** mantêm vendas consistentes em qualquer clima, mostrando serem sabores clássicos e de preferência estável.  
+- **Limão e Manga** apresentam um salto expressivo em dias quentes, confirmando que sabores mais refrescantes são mais procurados no calor.  
+- Em dias frios, sabores mais doces e encorpados (como Chocolate) continuam sendo os mais vendidos, mesmo com a queda geral no consumo.  
+
+### Insights Gerais
+- A cada aumento de temperatura, há um impacto direto e mensurável nas vendas.  
+- Estratégias de marketing podem ser ajustadas conforme a previsão do tempo, destacando sabores refrescantes em dias quentes.  
+- Em dias mais frios, promoções de sabores clássicos podem ajudar a manter o fluxo de clientes.  - Esse tipo de análise pode ser expandido com dados reais de clima e vendas, tornando o modelo ainda mais robusto.
+
+
