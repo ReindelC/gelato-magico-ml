@@ -14,12 +14,6 @@ O objetivo é aplicar conceitos de **Machine Learning** para prever as vendas de
 
 ---
 
-## 📂 Estrutura do Repositório
-gelato-magico-ml │ ├── inputs/              # Arquivos de entrada (frases, dados, etc.) │   └── frases.txt │ ├── notebooks/           # Notebooks Jupyter com experimentos │   └── modelo_sorvete.ipynb │ ├── src/                 # Scripts de treinamento e predição │   ├── train.py │   ├── predict.py │   └── pipeline.py │ ├── requirements.txt     # Dependências do projeto └── README.md            # Documentação do projeto
-
-
----
-
 ## 🧪 Metodologia
 1. **Coleta de dados**: foram utilizadas temperaturas médias e vendas diárias simuladas.  
 2. **Pré-processamento**: divisão em treino e teste.  
@@ -62,4 +56,16 @@ O gráfico de barras evidencia diferenças importantes no consumo de sabores:
 - Estratégias de marketing podem ser ajustadas conforme a previsão do tempo, destacando sabores refrescantes em dias quentes.  
 - Em dias mais frios, promoções de sabores clássicos podem ajudar a manter o fluxo de clientes.  - Esse tipo de análise pode ser expandido com dados reais de clima e vendas, tornando o modelo ainda mais robusto.
 
+---
 
+### ⚠️ Aviso sobre uso de IA
+
+Este conteúdo foi gerado com o auxílio de inteligência artificial — **Copilot** — e serve como material de apoio à documentação do projeto. A IA foi utilizada para estruturar textos, sugerir trechos e formatar o README, incluindo exemplos e prints simulados.
+
+**Observações importantes**
+- **Ferramenta usada:** Copilot (versão atual disponibilizada no ambiente).  
+- **Revisão humana:** todo o conteúdo gerado pela IA foi lido, ajustado e validado por mim, **Cristiane Reindel**, antes da publicação.  
+- **Responsabilidade:** decisões técnicas, adaptações do código e informações sensíveis devem ser conferidas com atenção humana; o material pode exigir ajustes para refletir seu ambiente e credenciais reais.  
+- **Uso ético:** não compartilhe chaves ou segredos; verifique conformidade com políticas de privacidade e licenciamento antes de publicar ou distribuir dados.
+
+**Cristiane Reindel**🦄
